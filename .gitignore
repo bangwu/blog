@@ -12,3 +12,4 @@
 !/log/.keep
 /tmp
 /bower_components
+/node_modules
