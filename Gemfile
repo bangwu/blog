@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -30,10 +30,10 @@ gem 'pg'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'capistrano'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'capistrano-ext'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
